@@ -1,0 +1,21 @@
+### Test 1: Query for "michael"
+
+POST http://127.0.0.1:5000/query
+Content-Type: application/json
+
+{"query": "michael"}
+---
+
+### Test 2: Query for "jordan"
+
+POST http://127.0.0.1:5000/query
+Content-Type: application/json
+
+{"query": "jordan"}
+
+### Test 3: Query for "basketball"
+
+POST http://127.0.0.1:5000/query
+Content-Type: application/json
+
+{"query": "basketball"}
